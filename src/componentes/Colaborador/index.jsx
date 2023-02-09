@@ -5,7 +5,6 @@ const Colaborador = ({ colaborador, corDeFundo, aoDeletar }) => {
     return (
     <div className="colaborador">
         <AiOutlineCloseCircle size={25} className="deletar" onClick={aoDeletar}/>
-     
         <div className="cabecalho" style={{ backgroundColor: corDeFundo }}>
             <img src={colaborador.imagem} alt={colaborador.nome} />
         </div>
